@@ -79,5 +79,137 @@ header nav li:last-of-type a{
     margin: inherit;
 }
 
+main section h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.lorem{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.social{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background: #000000;
+    border-radius: 0px;
+}
+
+.social-container{
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+}
+.social-client{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.paragraph-social{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 111px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.help{
+    padding-top: 120px;
+    padding-bottom: 108px;
+    background-color: #000000;
+}
+
+.help-container{
+    margin: auto;
+}
+
+.need-help{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.paragraph-help{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+
+.help-button{
+    background: #FFFFFF;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding-top: 9px;
+    padding-bottom: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.help-button:before{
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+
 
 
