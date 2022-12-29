@@ -11,7 +11,6 @@ header{
 .container{
     max-width: 1200px;
     margin: auto;
-
 }
 
 header nav ul{
@@ -112,6 +111,118 @@ h1{
     color: #C0C0C0;
 }
 
+.what-we-do{
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+
+.what-we-do .container{
+    max-width: 1168px;
+}
+
+.what-we-do h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.what-we-do h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+
+}
+
+.d_flex_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.what-we-do .d_flex_container article{
+    max-width: 576px;
+    position: relative;
+}
+
+.what-we-do .d_flex_container article{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+
+.what-we-do .d_flex_container article .description{
+    position: absolute;
+    max-width: 100%;
+    bottom: 0;
+    padding: 30px 45px 30px 30px;
+    box-sizing: border-box;
+}
+
+.what-we-do .d_flex_container .description h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.what-we-do .d_flex_container .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 20px;
+}
+
+.what-button{
+    background: #FFFFFF;
+    border-radius: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding-top: 9px;
+    padding-bottom: 13px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.what-button:before{
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+
 .social{
     padding-top: 120px;
     padding-bottom: 100px;
@@ -147,6 +258,7 @@ h1{
 .social-link{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .help{
@@ -157,6 +269,8 @@ h1{
 
 .help-container{
     margin: auto;
+    max-width: 600px;
+    text-align: center;
 }
 
 .need-help{
@@ -198,6 +312,7 @@ h1{
     padding-left: 10px;
     display: inline-flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .help-button:before{
@@ -209,6 +324,7 @@ h1{
     border-radius: 50%;
     margin-right: 6px;
 }
+
 
 
 
