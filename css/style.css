@@ -141,7 +141,6 @@ h1{
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 42px;
-
 }
 
 .d_flex_container{
@@ -222,6 +221,60 @@ h1{
     margin-right: 6px;
 }
 
+.mountain{
+    background-image: url("../images/image1.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 62px;
+}
+
+.sunset{
+    max-width: 298px;
+    margin: inherit;
+}
+
+.sunset h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sunset p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.monstera{
+    background-image: url("../images/image2.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 62px;
+}
+
+.star{
+    background-image: url("../images/image3.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 62px;
+}
 
 .social{
     padding-top: 120px;
@@ -325,7 +378,162 @@ h1{
     margin-right: 6px;
 }
 
+footer{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer .container{
+    justify-content: space-between;
+    align-items: center;
+}
 
 
+footer a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 36px;
+}
+
+.business{
+    margin-right: 55px;
+}
+
+.image{
+    margin-bottom: 20px;
+}
+
+
+
+footer li{
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.table{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+footer h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 36px;
+}
+
+footer span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.subscribe{
+    border-top: solid 2px #FFFFFF;
+    border-bottom: solid 2px #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.subscribe form{
+    height: 52px;
+    max-width: 458px;
+    background: #F9FAFB;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px;
+    flex-grow: 1;
+}
+.subscribe form input{
+    font: 400 16px/20px 'Poppins', sans-serif;
+    color: #000;
+    width: 80%;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+}
+.subscribe form label{
+    display: none;
+}
+.subscribe form small{
+    display: none;
+}
+.subscribe button{
+    width: 15%;
+    height: 60%;
+    background-color: #000000;
+    border: none;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.aperture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aperture-photo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+
+}
+
+
+.social-img{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
 
 
