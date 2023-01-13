@@ -70,6 +70,7 @@ header nav li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .main-banner .container{
@@ -88,6 +89,49 @@ main section h4{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
+}
+
+.position-items{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    display: flex;
+    list-style: none;
+}
+
+.position-items li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.position-items li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/icon_1.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+
+.position-items li:nth-child(2):before{
+    background-image: url("../images/icon_2.svg");
+}
+
+.position-items li:nth-child(3):before{
+    background-image: url("../images/icon_4.svg");
+    width: 32px;
+}
+
+.position-items li:nth-child(4):before{
+    background-image: url("../images/icon_3.svg");
+    width: 10px;
 }
 
 h1{
@@ -256,6 +300,65 @@ h1{
     color: #C0C0C0;
 }
 
+.we_use{
+    background-color: black;
+    position: relative;
+}
+
+.we_use .container{
+    max-width: 1240px;
+    min-height: 540px;
+    display: flex;
+    align-items: center;
+}
+
+.we_use .information{
+    max-width: 514px;
+}
+
+.we_use .information h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+
+.we_use .information h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.we_use .information p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+.we_use .banner_we_use{
+    background-image: url("../images/banner_we_use.jpg");
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50%;
+    height: 100%;
+}
+
 .monstera{
     background-image: url("../images/image2.jpg");
     height: 600px;
@@ -404,7 +507,6 @@ footer ul{
     list-style: none;
     align-items: center;
     justify-content: flex-end;
-    margin-bottom: 36px;
 }
 
 .business{
@@ -536,4 +638,13 @@ footer span{
     margin-right: 20px;
 }
 
+.container-aperture{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aperture{
+    display: flex;
+    justify-content: space-between;
+}
 
